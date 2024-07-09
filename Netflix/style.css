@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    
+}
+
+.contenedor{
+    height: 13vw;
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 15vw;
+    
+    
+}
+
+
+.rojo1{
+    
+    width: 2.5vw;
+    height: 13vw;
+    background-color: red;
+    animation-name: uno;
+    animation-duration: 1.5s;
+   
+    
+
+}
+
+@keyframes uno{
+    0%{margin-top: 13vw;}
+    0%{height: 0vw;}
+    100%{margin-top: 0vw; }
+    100%{height:  13vw;}
+    
+
+}
+
+.diagonal{
+    width: 2.5vw;
+    height: 13vw;
+    background-color: red;  
+    transform: skew(20deg);
+    z-index: 2;
+    margin-left: -0.1vw;
+    animation-name: dos;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    box-shadow: -27px -16px 35px -7px rgba(0,0,0,0.78);
+    
+}
+
+@keyframes dos {
+    0%{margin-bottom: 13vw; height: 0vw;}
+    100%{height: 13vw; margin-bottom: 0vw;}
+}
+
+.rojo2{
+   
+    width: 2.5vw;
+    height: 13vw;
+    background-color: red;
+    z-index: 3;
+    animation-name: tres;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    
+}
+
+@keyframes tres{
+    0%{margin-top: 13vw; height: 0vw;}
+   
+    100%{height:  13vw; margin-top: 0vw; } 
+}
+
+.borde{
+    background-color: rgb(0, 0, 0);
+    width: 10vw;
+    height: 2vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 27.5vw;
+    left: 45.3vw;
+    z-index: 3;
+}

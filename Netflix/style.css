@@ -6,81 +6,95 @@ body{
 }
 
 .contenedor{
-    height: 13vw;
-   
+
+   background-color: aliceblue;
+   margin-left: 46vw;
+   margin-right: 46vw;
     display: flex;
     justify-content: center;
     margin-top: 15vw;
+    overflow: hidden;
     
     
 }
 
 
 .rojo1{
-    
-    width: 2.5vw;
+    position: absolute;
+    width: 2.6vw;
     height: 13vw;
-    background-color: red;
+    background: red;
     animation-name: uno;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s; 
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
    
     
 
 }
 
 @keyframes uno{
-    0%{margin-top: 13vw;}
-    0%{height: 0vw;}
-    100%{margin-top: 0vw; }
-    100%{height:  13vw;}
+    0%{margin-top: 13vw; height: 0vw;}
+    33%{margin-top: 0vw; height:  13vw;}
+    100%{visibility: visible;}
     
 
 }
 
 .diagonal{
-    width: 2.5vw;
+    position: absolute;
+    width: 2.7vw;
     height: 13vw;
-    background-color: red;  
+    background-color: rgb(255, 0, 0);  
     transform: skew(20deg);
     z-index: 2;
-    margin-left: -0.1vw;
     animation-name: dos;
-    animation-duration: 1.5s;
-    animation-delay: 1s;
+    animation-duration: 1.6s; 
+    animation-delay: 0.3s;
+    visibility: hidden;
+    animation-fill-mode: forwards; 
+    margin-left: 4.9vw; 
     box-shadow: -27px -16px 35px -7px rgba(0,0,0,0.78);
     
 }
 
 @keyframes dos {
-    0%{margin-bottom: 13vw; height: 0vw;}
-    100%{height: 13vw; margin-bottom: 0vw;}
+    0%{margin-left: -0.2vw; height: 0vw;}
+    33%{margin-left: -0.1vw; height: 0vw;} 
+    100%{visibility: visible;} 
+    
+     
 }
 
 .rojo2{
-   
-    width: 2.5vw;
+    position: absolute;
+    width: 2.6vw;
     height: 13vw;
     background-color: red;
     z-index: 3;
     animation-name: tres;
     animation-duration: 1s;
-    animation-delay: 2.3s;
+    animation-delay: 1.7s; 
+    visibility: hidden;
+    left: 55vw; 
+    animation-fill-mode: forwards;
     
 }
 
 @keyframes tres{
     0%{margin-top: 13vw; height: 0vw;}
-   
-    100%{height:  13vw; margin-top: 0vw; } 
+    100%{height:  13vw; margin-top: 0vw; visibility: visible;} 
 }
 
 .borde{
+    position: absolute;
     background-color: rgb(0, 0, 0);
     width: 10vw;
     height: 2vw;
     border-radius: 50%;
     position: absolute;
     top: 27.5vw;
-    left: 45.3vw;
-    z-index: 3;
+    left: 48.3vw;
+    z-index: 3; 
 }

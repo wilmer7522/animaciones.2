@@ -1,7 +1,82 @@
+body{
+    overflow: hidden;
+}
+.contenedor{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .caja{
     height: 20vw;
     width: 20vw;
-    background-color: aqua;
+    background-color: #c1c1c1;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja2{
+    background-color: #ffffff;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    box-shadow: 0px 0px 1px rgb(50, 50, 50);
+    position: relative;
+    top: -2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.circulo{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,40,1) 0%, rgba(68,68,242,1) 0%, rgba(128,234,255,1) 50%);nt(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(68,68,242,1) 0%, rgba(0,212,255,1) 50%);
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flecha{
+    position: relative;
+    rotate: 45deg;
+    transition: 1s;
+
+}
+
+
+
+.circulo:hover .flecha{
+    transform: rotate(360deg);
+}
+
+
+
+
+
+.rojo{
+    width: 0vw;
+    height: 0vw;
+    border-bottom: 8vw solid red;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    
+}
+
+.blanco{
+    width: 0vw;
+    height: 0vw;
+    border-top: 8vw solid rgb(255, 255, 255);
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
 }

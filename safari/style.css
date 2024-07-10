@@ -14,7 +14,7 @@ body{
     width: 20vw;
     background-color: #c1c1c1;
     border-radius: 10%;
-    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    box-shadow: 0px 10px 50px rgb(0, 0, 0);
     position: fixed;
     display: flex;
     justify-content: center;
@@ -45,7 +45,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.circulo span{
+   position: absolute;
+   width: 0.1vw;
+   height: 0.8vw;
+   background: #ffffff;
+   transform: rotate(calc(10deg*var(--i)));
+   transform-origin: 0.1vw 8vw ;
+   top: 2vw;
+   filter: drop-shadow(1px 1px 1px #000);
+
+}
+
+.circulo span::before{
+    content: "";
+    position: absolute;
+    width: 0.1vw;
+    height: 0.4vw;
+    background: #ffffff;
+    transform: rotate(5deg);
+    transform-origin: 0.1vw 8vw ;
 }
 .flecha{
     position: relative;

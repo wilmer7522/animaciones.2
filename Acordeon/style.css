@@ -1,0 +1,123 @@
+body {
+    background: rgb(209, 96, 96);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font: 1em Arial;
+    overflow: hidden;
+}
+
+#uno,
+#dos,
+#tres,
+#cuatro,
+#cinco {
+    
+}
+
+#etiqueta{
+    cursor: pointer;
+}
+
+
+.a {
+
+    width: 40vw;
+    height: 3vw;
+    background-color: white;
+    margin-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 1vw;
+    overflow: hidden;
+
+}
+
+.flecha {
+    position: absolute;
+    top: 1vw;
+    left: 68vw;
+}
+
+.flecha2 {
+    position: absolute;
+    top: 6vw;
+    left: 68vw;
+}
+
+.flecha3 {
+    position: absolute;
+    top: 11vw;
+    left: 68vw;
+}
+
+.flecha4 {
+    position: absolute;
+    top: 16vw;
+    left: 68vw;
+}
+
+.flecha5 {
+    position: absolute;
+    top: 21vw;
+    left: 68vw;
+}
+
+
+
+
+
+.b {
+    width: 40vw;
+    height: 3vw;
+    background-color: white;
+    margin-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 1vw;
+    
+
+}
+
+#dos:checked ~ .b {
+    height: 20vw;
+}
+
+.c {
+    width: 40vw;
+    height: 3vw;
+    background-color: white;
+    margin-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 1vw;
+    overflow: hidden;
+}
+
+.d {
+    width: 40vw;
+    height: 3vw;
+    background-color: white;
+    margin-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 1vw;
+    overflow: hidden;
+}
+
+.e {
+    width: 40vw;
+    height: 3vw;
+    background-color: white;
+    margin-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 1vw;
+    overflow: hidden;
+}
+
+.letraAzul {
+    color: blue;
+    font-size: 2vw;
+    margin-top: 0.6vw;
+
+}
+
+.letra {
+    font-size: 1vw;
+}

@@ -8,8 +8,8 @@ body{
 .contenedor{
 
    background-color: aliceblue;
-   margin-left: 46vw;
-   margin-right: 46vw;
+   /*margin-left: 46vw;
+   margin-right: 46vw;*/
     display: flex;
     justify-content: center;
     margin-top: 15vw;
@@ -26,6 +26,7 @@ body{
     background: red;
     animation-name: uno;
     animation-duration: 2.5s; 
+    animation-delay: 1s;
     visibility: hidden;
     animation-fill-mode: forwards;
 
@@ -51,7 +52,7 @@ body{
     z-index: 2;
     animation-name: dos;
     animation-duration: 1.6s; 
-    animation-delay: 0.3s;
+    animation-delay: 1.3s;
     visibility: hidden;
     animation-fill-mode: forwards; 
     margin-left: 4.9vw; 
@@ -75,9 +76,9 @@ body{
     z-index: 3;
     animation-name: tres;
     animation-duration: 1s;
-    animation-delay: 1.7s; 
+    animation-delay: 2.7s; 
     visibility: hidden;
-    left: 55vw; 
+    left: 54.5vw; 
     animation-fill-mode: forwards;
     
 }

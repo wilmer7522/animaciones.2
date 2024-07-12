@@ -12,6 +12,7 @@ body {
 #tres,
 #cuatro,
 #cinco {
+    display: none;
     
 }
 
@@ -29,37 +30,51 @@ body {
     padding-left: 0.5vw;
     padding-bottom: 1vw;
     overflow: hidden;
+    transition: 0.3s;
 
+}
+
+#uno:checked ~ .a {
+    height: 20vw;
+}
+.a .letra {
+    font-size: 1.6vw;
+    padding: 1.9vw;
+    position: relative;
+    top: -3vw;
+    text-align: center;
 }
 
 .flecha {
-    position: absolute;
-    top: 1vw;
-    left: 68vw;
+    position: relative;
+    left: 37vw;
+    top: -4vw;
+
 }
 
 .flecha2 {
-    position: absolute;
-    top: 6vw;
-    left: 68vw;
+    
+    position: relative;
+    left: 37vw;
+    top: -4vw;
 }
 
 .flecha3 {
-    position: absolute;
-    top: 11vw;
-    left: 68vw;
+    position: relative;
+    left: 37vw;
+    top: -4vw;
 }
 
 .flecha4 {
-    position: absolute;
-    top: 16vw;
-    left: 68vw;
+    position: relative;
+    left: 37vw;
+    top: -4vw;
 }
 
 .flecha5 {
-    position: absolute;
-    top: 21vw;
-    left: 68vw;
+    position: relative;
+    left: 37vw;
+    top: -4vw;
 }
 
 
@@ -73,6 +88,8 @@ body {
     margin-top: 1vw;
     padding-left: 0.5vw;
     padding-bottom: 1vw;
+    overflow: hidden;
+    transition: 0.3s;
     
 
 }
@@ -80,6 +97,8 @@ body {
 #dos:checked ~ .b {
     height: 20vw;
 }
+
+
 
 .c {
     width: 40vw;
@@ -89,6 +108,11 @@ body {
     padding-left: 0.5vw;
     padding-bottom: 1vw;
     overflow: hidden;
+    transition: 0.3s;
+}
+
+#tres:checked ~ .c {
+    height: 20vw;
 }
 
 .d {
@@ -99,6 +123,11 @@ body {
     padding-left: 0.5vw;
     padding-bottom: 1vw;
     overflow: hidden;
+    transition: 0.3s;
+}
+
+#cuatro:checked ~ .d {
+    height: 20vw;
 }
 
 .e {
@@ -109,6 +138,11 @@ body {
     padding-left: 0.5vw;
     padding-bottom: 1vw;
     overflow: hidden;
+    transition: 0.3s;
+}
+
+#cinco:checked ~ .e{
+    height: 20vw;
 }
 
 .letraAzul {
@@ -118,6 +152,3 @@ body {
 
 }
 
-.letra {
-    font-size: 1vw;
-}

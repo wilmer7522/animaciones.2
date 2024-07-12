@@ -37,7 +37,7 @@ body {
 #uno:checked ~ .a {
     height: 20vw;
 }
-.a .letra {
+.letra {
     font-size: 1.6vw;
     padding: 1.9vw;
     position: relative;

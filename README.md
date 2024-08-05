@@ -16,14 +16,14 @@ Las páginas web se enfocan en ayudarnos a manejar las transiciones y animacione
 
 Aquí podras observar lo utilizado para llevar a cabo el proyecto:
 
-![Estructura del proyecto en CMD](index-1.png)
+![Estructura del proyecto en CMD](img/Captura%20de%20Pantalla%202024-08-05%20a%20la(s)%208.59.06%20a. m..png)
 
 Las páginas se enfocan en la animación.
 
 ## Caracteristícass
-* Archivos [Netflix]:Los cuales contienen el código principal.
-* Archivos [Zafari]:Nos permite llevar a cabo la realización del diseño del proyecto.
-* Archivos (Acordeon)
+* Archivos [Netflix](Netflix)
+* Archivos [Zafari](Zafari)
+* Archivos [Acordeon](Acordeon)
 ## Diseño
 * Se realiza el diseño son medidas relativas con el fin de que las páginas puedan ser utilizadas en varios dispositivos.
 
